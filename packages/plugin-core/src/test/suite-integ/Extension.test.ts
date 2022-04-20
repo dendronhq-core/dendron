@@ -29,8 +29,8 @@ import {
   describeMultiWS,
   runTestButSkipForWindows,
   setupBeforeAfter,
-  VSCodeTestUtils,
 } from "../testUtilsV3";
+import { VSCodeTestUtils } from "../utils";
 
 async function inactiveMessageTest(opts: {
   done: mocha.Done;
